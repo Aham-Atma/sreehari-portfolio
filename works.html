@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Works - Sreehari. S</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0a0d24;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1a1f3b;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #0d1329;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #d4af37;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .breadcrumb {
+            padding: 10px;
+            background-color: #1a1f3b;
+            text-align: center;
+        }
+        .breadcrumb a {
+            color: #d4af37;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+        .works-container {
+            width: 90%;
+            margin: 20px auto;
+            overflow-x: auto;
+            white-space: nowrap;
+            padding-bottom: 20px;
+        }
+        .work-card {
+            display: inline-block;
+            background-color: #1a1f3b;
+            border: 1px solid #d4af37;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            white-space: normal;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .work-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(212, 175, 55, 0.5);
+        }
+        .work-card h3 {
+            color: #d4af37;
+        }
+        .work-card p {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+        .work-card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #d4af37;
+            color: #0d1329;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #1a1f3b;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Works</h1>
+    <h2>Presentations, Videos, and Reports by Sreehari. S</h2>
+</header>
+
+<nav>
+    <a href="sreehari.html">Home</a>
+    <a href="About Me.html">About Me</a>
+    <a href="works.html">My Works</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="breadcrumb">
+    <a href="sreehari.html">Home</a> > <span>My Works</span>
+</div>
+
+<div class="works-container">
+    <!-- Presentation Card -->
+    <div class="work-card">
+        <h3>Presentation</h3>
+        <p>An in-depth look at financial and corporate presentation.</p>
+        <a href="https://drive.google.com/file/d/YOUR_VIDEO_ID/view" target="_blank">View Presentations</a>
+    </div>
+
+    <!-- Video Card -->
+    <div class="work-card">
+        <h3>Finance Insights Video</h3>
+        <p>A video explaining key concepts in finance and analysis.</p>
+        <a href="https://drive.google.com/file/d/YOUR_VIDEO_ID/view" target="_blank">Watch Video</a>
+    </div>
+
+    <!-- Report Card -->
+    <div class="work-card">
+        <h3>Project Report</h3>
+        <p>Comprehensive analysis and data-driven insights from recent projects.</p>
+        <a href="https://drive.google.com/file/d/1eD_laWZaGQz1c7G5Sa6LKyNAqqDG7qVM/view?usp=drive_link" target="_blank">View Report</a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Sreehari. S. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
